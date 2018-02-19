@@ -3,21 +3,28 @@
     margin: 0;
     padding: 0;
 }
+
 aside,
 footer,
 header,
 main {
+    
     padding: 17px;
 }
+
 footer {
+    
     grid-column: 1 / -1;
 }
+
 header {
     grid-column: 1 / -1;
 }
+
 nav {
     padding: 5px;
 }
+
     nav li {
         margin: 3px;
     }
@@ -26,13 +33,17 @@ nav {
     margin: 5px;
     padding: 5px 9px;
 }
+
 .card {
+    
     margin: 11px;
     padding: 19px;
 }
+
     .card p {
         padding: 5px;
     }
+
 .container {
     display: grid;
     grid-template-columns: 4fr 1fr;
@@ -40,8 +51,26 @@ nav {
     min-height: 100vh;
 }
 
+
 .social-media {
     padding: 5px 9px;
+}
+
+div.cards {
+    display: flex;
+    flex-direction: row;
+    height:auto;
+}
+
+div.cards aside{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+
+div.container footer small{
+    display:flex;
+    justify-content:center;
 }
 
 /*
