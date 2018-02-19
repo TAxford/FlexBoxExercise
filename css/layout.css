@@ -56,21 +56,38 @@ nav {
     padding: 5px 9px;
 }
 
+a.logo{
+    display:flex;
+    justify-content:flex-start;
+}
+
+ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+}
+
 div.cards {
     display: flex;
     flex-direction: row;
     height:auto;
 }
 
-div.cards aside{
+aside{
     display:flex;
     flex-direction:column;
     justify-content:space-around;
 }
 
-div.container footer small{
-    display:flex;
+small{
+    display:flex;    
     justify-content:center;
+}
+
+ul social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 /*
